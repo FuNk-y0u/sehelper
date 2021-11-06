@@ -1,0 +1,13 @@
+char* button_text = "your text";
+SDL_Rect button_pos = {[x],[y],[w],[h]};
+
+Button* button = button_new(window->renderer, button_pos, font, button_text,[fg-color],[bg-color],[outline-color]);
+
+//to draw
+while(loop){
+	// to check if button is pressed or not
+	if(button_is_clicked(button,event,button_pos.x,button_pos.y)){
+	printf("button is pressed");
+}
+	button_render(button,window->renderer);
+}

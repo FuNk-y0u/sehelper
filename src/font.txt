@@ -1,0 +1,5 @@
+int font_size = 20; //font size
+char* font_path = "yourdirectory/yourfont.ttf"; //your font location
+TTF_Font* font = TTF_OpenFont(font_path, font_size);// font variable
+
+

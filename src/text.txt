@@ -1,0 +1,7 @@
+SDL_Texture* text = create_texture(window->renderer, font, "your text here!");
+
+// To draw
+while(running){
+	draw_text(window->renderer,[x],[y],text,color);
+}
+

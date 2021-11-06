@@ -1,0 +1,8 @@
+SDL_Rect menu_pos = {[x],[y],[w],[h]};
+Menu* menu = menu_new(window->renderer,menu_pos,[bg color],[outline color]);
+
+// To draw
+menu_render_begin(menu, window->renderer);
+// anything between will be rendered in side the menu
+menu_render_end(menu, window->renderer);
+

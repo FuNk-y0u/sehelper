@@ -1,0 +1,1 @@
+SDL_Color color = {[R],[G],[B],[A]}; //Color variable

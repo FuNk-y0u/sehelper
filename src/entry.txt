@@ -1,0 +1,10 @@
+SDL_Rect entry_pos = {[x].[y],[w],[h]};
+Entry* entry = entry_new(window->renderer, font, entry_pos,[max char],[fg-color],[bg-color],[border-color]);
+
+//to draw
+while(running){
+	entry_render(entry,, window->render, NULL,, font);
+}
+
+//to avoid mem leak
+entry_destroy(entry);

@@ -1,0 +1,16 @@
+#include "engine.h"
+
+int main(int argc, char** argv){
+	if(engine_init() < 0) return -1; //checks for errors
+	
+	bool running = true; //For main loop
+	SDL_Event event;// For getting events
+	
+	//event loop
+	while(loop){
+		// code to run every frame
+	} 
+
+//to avoid memory leak
+engine_quit();
+}
